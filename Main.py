@@ -10,6 +10,8 @@ import youtube_dl
 
 client = commands.Bot(command_prefix = "x")
 
+player = {}
+
 @client.event
 async def on_ready():
     print('Logged in as')
