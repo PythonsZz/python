@@ -50,7 +50,7 @@ async def on_message(message):
       players[server.id] = player
       print("User: {} From Server: {} is playing {}".format(author, server, title))
       player.start()
-  await client.process_commands(message)
+    await client.process_commands(message)
 
 @client.command(pass_context=True)
 async def ping(ctx):
