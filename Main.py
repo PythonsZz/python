@@ -2,11 +2,10 @@ import discord
 from discord.ext import commands
 import asyncio
 import time
-from itertools import cycle
 import os
 import bs4, requests
-from discord import opus
 import youtube_dl
+from discord import opus
 
 client = commands.Bot(command_prefix = "x")
 
